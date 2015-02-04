@@ -1,3 +1,10 @@
+# myApp
+creating an app with ionic framework
+but i have problem with routing after checking network
+
+
+
+
 
 var example = angular.module("myApp", ["ionic"])
      example.run(function($ionicPlatform, $ionicPopup,$location) {
@@ -17,7 +24,8 @@ var example = angular.module("myApp", ["ionic"])
                     })
                     
                    //window.location.href = 'app/sign/signin.html';
-                   $state.go("sign"); 
+                   //$state.go("sign"); 
+                  $location.url(/sign)
                 }
             
           }
