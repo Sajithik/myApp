@@ -1,0 +1,28 @@
+<ion-view title="Registration" ng-controller="registrationCtrl">
+    <ion-content>
+        <div class="padding-left padding-top padding-right">
+            <h1>Welcome</h1>
+        </div>
+        <form method="post">
+            <div class="list list-inset">
+                <label class="item item-input">
+                    <input ng-model="registerData.customer_name" type="text" placeholder="Customer Name" />
+                </label>
+                <label class="item item-input">
+                    <input ng-model="registerData.customer_mobile" type="text" placeholder="Customer Mobile" />
+                </label>
+                <label class="item item-input">
+                    <input ng-model="registerData.customer_email" type="email" placeholder="Customer E-mail" />
+                </label>
+                <label class="item item-input">
+                    <input ng-model="registerData.Password" type="password" placeholder="Password" />
+                </label>
+            </div>
+            <div class="padding">
+                
+                <button ng-click="registers()" class="button button-block button-dark" type="submit">Register</button>
+                
+            </div>
+        </form>
+    </ion-content>
+</ion-view>
