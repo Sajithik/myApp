@@ -1,7 +1,7 @@
 {
-  "name": "ionicproject",
+  "name": "ss",
   "version": "1.0.0",
-  "description": "IonicProject: An Ionic project",
+  "description": "ss: An Ionic project",
   "dependencies": {
     "gulp": "^3.5.6",
     "gulp-sass": "^0.7.1",
@@ -15,6 +15,7 @@
     "shelljs": "^0.3.0"
   },
   "cordovaPlugins": [
+    "org.apache.cordova.network-information",
     "https://github.com/brodysoft/Cordova-SQLitePlugin.git"
   ]
 }
